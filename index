@@ -661,7 +661,7 @@
         </div>
         <div class="team-info">
           <div class="team-name">Kenan Pucurica</div>
-          <div class="team-role">Vorarbeiter</div>
+          <div class="team-role"> </div>
           <p class="team-bio">Kenan sorgt dafür, dass auf der Baustelle alles läuft – zuverlässig, strukturiert und mit dem Blick fürs Detail.</p>
         </div>
       </div>
@@ -680,7 +680,7 @@
 
 <!-- KONTAKT -->
 <section id="kontakt">
-  <div class="kontakt-layout">
+  <div class="kontakt-layout" style="grid-template-columns:1fr">
     <div>
       <div class="section-label">Kontakt</div>
       <h2 class="section-title">Projekt anfragen.</h2>
@@ -703,11 +703,11 @@
         <div class="kontakt-detail-icon">📍</div>
         <div>
           <div class="kontakt-detail-label">Einsatzgebiet</div>
-          <div class="kontakt-detail-value">Region Ravensburg · Süddeutschland · D-A-CH</div>
+          <div class="kontakt-detail-value">Region Bodensee/Oberschwaben · Süddeutschland · D-A-CH</div>
         </div>
       </div>
     </div>
-    <div>
+    <!--<div>
       <div class="form-group form-row">
         <div>
           <label>Name *</label>
@@ -733,7 +733,7 @@
         <textarea placeholder="Was steht an? Art des Projekts, Umfang, Zeitraum ..."></textarea>
       </div>
       <a href="#" class="btn-primary" style="width:100%;text-align:center;display:block">Anfrage senden →</a>
-    </div>
+    </div>-->
   </div>
 </section>
 
